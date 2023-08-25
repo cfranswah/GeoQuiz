@@ -8,14 +8,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="24dp"
+        android:padding="30dp"
         android:text="@string/warning_text" />
 
     <TextView
         android:id="@+id/answerTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="24dp" />
+        android:padding="30dp" />
 
     <Button
         android:id="@+id/showAnswerButton"
@@ -23,17 +23,14 @@
         android:layout_height="wrap_content"
         android:text="@string/show_answer_button" />
 
-    <Button
-        android:id="@+id/judgement_toast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/judgment_toast" />
 
     <ImageButton
         android:id="@+id/previous_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#28454343"
+        android:contentDescription="@string/previous_button_description"
         android:drawableStart="@drawable/arrow_left"
-        android:contentDescription="@string/previous_button_description"/>
+        android:padding="20dp" />
 
 </LinearLayout>

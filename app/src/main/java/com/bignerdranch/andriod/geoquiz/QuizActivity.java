@@ -25,7 +25,6 @@ public class QuizActivity extends Activity {
     private ImageButton mPrevButton;
     private Button mCheatButton;
     private TextView mQuestionTextView;
-
     private TrueFalse[] mQuestionBank = new TrueFalse[]{
             new TrueFalse(R.string.question_oceans, true),
             new TrueFalse(R.string.question_mideast, false),
